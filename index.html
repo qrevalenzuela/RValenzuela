@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robin Portfolio</title>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.16/dist/css/uikit.min.css"
+    />
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.16/dist/js/uikit-icons.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="uk-navbar-container px-28" style="background-color: #93c5fd"
+      uk-navbar
+    >
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="#aboutme" style="color: white; font-weight: bold;">About Me</a></li>
+          <li><a href="#projects" style="color: white; font-weight: bold;">Projects</a></li>
+          <li><a href="#reflection" style="color: white; font-weight: bold;">Reflection</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- ABOUT ME -->
+    <div 
+      id="aboutme"
+      class="h-[85vh] bg-gradient-to-b from-blue-300 to-blue-900 flex justify-center items-center flex-col"
+    >
+      <img class="h-80 w-80 rounded-full my-3" src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/318416856_1274621493385212_1356809200589326738_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFacvXrJVlA2tOlZvO1IiCFTy8VBMp0XjxPLxUEynRePBmU6PiwIvjYfwBTzKcbLcWDJL8czHGpNBPaAAf6JATL&_nc_ohc=QqaYmuyp6I4AX-osls5&_nc_oc=AQlkOTK0IAoYukwDkO1Fbl-s280Q3wMAY6bQUDch4MssxZuSJS_2YRP5n7WYN_RBEK8&tn=juZ4SSaHD1tRiQSM&_nc_ht=scontent.fmnl3-2.fna&oh=03_AdRgW-77fUYxLRyAc53DX7-9IOd0nHPJUd87g2NXifktMA&oe=63BD54D9"></i>
+      <div class="text-7xl text-white my-3 font-bold">Robin E. Valenzuela</div>
+      <div class="text-2xl text-gray-300 ">CPE232 - Managing Enterprise Servers</div>
+      <div class="text-2xl text-gray-300 ">Dr. Jonathan Taylar</div>
+      
+      
+    </div>
+
+    <!-- PROJECTS -->
+        <div class="uk-position-relative uk-visible-toggle bg-slate-100" tabindex="-1" uk-slideshow id="projects">
+
+            <ul class="uk-slideshow-items">
+                <li class="h-100">
+                    <div class="h-1/3 flex justify-center items-center">
+                        <div class="text-5xl font-bold text-blue-900">Prelims HOA</div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="grid grid-cols-3 gap-4 w-2/3">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <a href="Prelims\Activity_1.pdf" download class="uk-card-title font-bold ">Activity 1</a>
+                                <p>Configure Network using Virtual Machines</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act2">
+                                <a href="Prelims\Activity_2.pdf" download class="uk-card-title font-bold ">Activity 2</a>
+                                <p>SSH Key-Based Authentication and Setting up Git</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act3">
+                                <a href="Prelims\Activity_3.pdf" download class="uk-card-title font-bold ">Activity 3</a>
+                                <p>Install SSH server on CentOS or RHEL 8</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act4">
+                                <a href="Prelims/Activity_4.pdf" download class="uk-card-title font-bold ">Activity 4</a>
+                                <p>Running Elevated Ad hoc Commands</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act5">
+                                <a href="Prelims/Activity_5.pdf" download class="uk-card-title font-bold ">Activity 5</a>
+            
+                                <p>Consolidating Playbook plays &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                                </p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="prelim">
+                                <a href="https://github.com/qrevalenzuela/Valenzuela_PrelimExam" download class="uk-card-title font-bold ">Prelim</a>
+            
+                                <p>Prelim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="h-100">
+                    <div class="h-1/3 flex justify-center items-center">
+                        <div class="text-5xl font-bold text-blue-900">Midterm HOA</div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="grid grid-cols-3 gap-4 w-2/3">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <a href="Prelims\Activity_6.pdf" download class="uk-card-title font-bold ">Activity 6</a>
+                                <p>Targeting Specific Nodes and Managing Services</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act2">
+                                <a href="Prelims\Activity_7.pdf" download class="uk-card-title font-bold ">Activity 7</a>
+                                <p>Managing Fiiles and Creating Roles in Ansible</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act3">
+                                <a href="https://github.com/qrevalenzuela/Activity-8.1" target="_blank" class="uk-card-title font-bold ">Activity 8</a>
+                                <p>Install, Configure, and Manage Availability Monitoring tools</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act4">
+                                <a href="https://github.com/qrevalenzuela/Activity_9_Valenzuela" target="_blank" class="uk-card-title font-bold ">Activity 9</a>
+                                <p>Install, Configure, and Manage Performance Monitoring tools</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act5">
+                                <a href="https://github.com/qrevalenzuela/Activity_10_RV" target="_blank" class="uk-card-title font-bold ">Activity 10</a>
+                                <p>Install, Configure, and Manage Log Monitoring tools
+                                </p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="midterm">
+                                <a href="https://github.com/qrevalenzuela/CPE_MIDEXAM_VALENZUELA" download class="uk-card-title font-bold ">Midterm </a>
+            
+                                <p>Midterm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="h-100">
+                    <div class="h-1/3 flex justify-center items-center">
+                        <div class="text-5xl font-bold text-blue-900">Finals HOA</div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="grid grid-cols-3 gap-4 w-2/3">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <a href="https://github.com/qrevalenzuela/Activity_11_RV" target="_blank" class="uk-card-title font-bold ">Activity 11</a>
+                                <p>Containerization &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act2">
+                                <a href="Prelims\Activity_12.pdf" download class="uk-card-title font-bold ">Activity 12</a>
+                                <p>Managing Fiiles and Creating Roles in Ansible</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act3">
+                                <a href="https://github.com/qrevalenzuela/Activity_13.1_RV" target="_blank" class="uk-card-title font-bold ">Activity 13</a>
+                                <p>OpenStack Prerequisite Installation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act4">
+                                <a href="https://github.com/qrevalenzuela/Activity_14.1_RV" target="_blank" class="uk-card-title font-bold ">Activity 14</a>
+                                <p>OpenStack Installation (Keystone, Glance, Nova)</p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="act5">
+                                <a href="https://github.com/qrevalenzuela/Activity_15.1_RV" target="_blank" class="uk-card-title font-bold ">Activity 15</a>
+                                <p>OpenStack Installation (Neutron, Horizon, Cinder)
+                                </p>
+                            </div>
+                            <div class="uk-card uk-card-default uk-card-body" id="finals">
+                                <a href="https://github.com/qrevalenzuela/Final_Exam_Valenzuela" download class="uk-card-title font-bold ">Finals </a>
+            
+                                <p>Finals &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover " href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover " href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
+
+        <div class="h-[50vh] bg-blue-900 flex flex-col items-center justify-center" id="reflection">
+            <div class="h-4/6 flex flex-col justify-around">
+            <div class="text-5xl text-white text-center font-bold">Reflection</div>
+            <div class="text-xl text-white px-32 text-justify">The reflection that I have learned this past semester is to use and apply all of the managing enterprises topics into real life scenarios. One of that, is the use of SSH or safe Shell. Through SSH we were able to create an environment that contains one control node and three host nodes. Through these nodes, we were able to formulate and create meaningful activities such as ansible basics that was vital from the midterm to the finals period wherein we are automating the installation and configuration of each host node so that we would not manually configure and install applications on these nodes. The essence of a Systems Administrator is shown by these activities, I was also enlightened by our professor the one and only Dr. Jonathan Taylar. Thank you for your guidance this past semester.</div>
+            </div>
+        </div>
+        
+<footer class="p-4 bg-white shadow md:flex md:items-center md:justify-center md:p-6 dark:bg-gray-800">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-github mx-2" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+    <a class="text-sm text-gray-500 sm:text-center dark:text-gray-400 hover:text-white">https://github.com/qrevalenzuela</a>
+    <!-- <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul> -->
+</footer>
+
+  </body>
+</html>
